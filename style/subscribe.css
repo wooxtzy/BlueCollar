@@ -1,0 +1,78 @@
+.subscribe__desc__title {
+    color: #1C2752;
+    font-family: 'Mulish';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.36000001430511475px;
+}
+
+.subscribe__desc__text {
+    color: #1C2752;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    width: 410px;
+}
+
+
+.subscribe__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe {
+    padding: 142px 0 52px;
+    background: #FFB342;
+}
+
+.subscribe__form {
+    display: flex;
+
+}
+
+.subscribe__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__form__input {
+    color: #fff;
+    padding: 20px 0 20px 26px;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    background: none;
+    width: 390px;
+}
+
+.subscribe__form__button {
+    width: 182px;
+    outline: none;
+    padding: 20px 48px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    transition: all linear 0.2s;
+    background: #FFFFFF;
+}
+
+.subscribe__form__input::placeholder {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+}
+
+.subscribe__form__button:hover{
+    background: #1C2752;
+    color: #FFB342;
+    border: #1C2752 2px solid;
+}

@@ -1,0 +1,144 @@
+.news__subtitle {
+    display: flex;
+    gap: 10px;
+    background: #F4F4F4;
+    padding: 0 20px;
+    align-items: center;
+    max-width: 192px;
+    width: 100%;
+}
+
+.news {
+    padding: 150px 0 140px;
+}
+
+.news__subtitle__text {
+    color: #1C2752;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+}
+
+.news__title {
+    color: #1C2752;
+    font-family: 'Mulish';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+}
+
+.news__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.news__cards__card__info__person {
+    background: #FFC368;
+    padding: 22px 38px;
+    display: flex;
+    gap: 10px;
+}
+
+.news__cards__card__info__person__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.30000001192092896px;
+    color: #1C2752;
+}
+
+.news__cards__card__info__date {
+    padding: 22px 26px;
+    display: flex;
+    gap: 10px;
+    width: 182px;
+    background: #FFB342;
+}
+
+.news__cards__card__info__date__text {
+    color: #1C2752;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.30000001192092896px;
+}
+
+.news__cards__card__info {
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 110px;
+}
+
+.news__cards__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 644px;
+    height: 100%;
+    max-width: 580px;
+    transition: all linear 0.2s;
+    width: 100%;
+}
+
+.news__cards__card__texts__title {
+    font-family: 'Mulish';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.36000001430511475px;
+    color: #1C2752;
+    width: 548px;
+}
+
+.news__cards__card__texts {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-top: 52px;
+}
+
+.news__cards__card__texts__text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    color: #7E7E7E;
+    width: 562px;
+}
+
+.news__cards__card__texts__link {
+    display: flex;
+    gap: 10px;
+    color: #1C2752;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4000000059604645px;
+    transition: all linear 0.2s;
+    width: 130px;
+}
+
+.news__cards__card__texts__link:hover {
+    transform: scale(1.1);
+}
+
+.news__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.news__cards{
+    display: flex;
+    gap: 30px;
+
+}
+
+.news__cards__card:hover{
+    transform: scale(1.01);
+}
